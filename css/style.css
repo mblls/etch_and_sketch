@@ -1,0 +1,36 @@
+:root{
+    --grid-rows: 0;
+    --grid-cols: 0;
+}
+
+body{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+main{
+    padding: 100px;
+    margin: auto;
+    background-color: palegoldenrod;
+}
+
+#container{
+    padding: 20px 20px;
+    margin: auto;
+    display: grid;
+    background-color: white;
+    box-shadow: brown;
+    height: 1000px;
+    width: 1000px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.cell{
+    
+    text-align: center;
+    background-color:white;
+}
+
+.cell:hover{
+    background-color: orange;
+}
