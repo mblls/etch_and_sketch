@@ -4,30 +4,128 @@
 }
 
 body{
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 900;
+    color: royalblue;
 }
 
 main{
+    font-size: 2em;
     padding: 100px;
     margin: auto;
     background-color: palegoldenrod;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+
+#btn_menu{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+}
+
+
+#btn_container{
+    float: left;
+    margin: auto;
+    font-size: medium;
+}
+
+#change_size{
+    color: grey;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    height: 30px;
+    border-radius: 10%;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+#change_size:hover{
+    background-color: royalblue;
+}
+
+#reset{
+    color: grey;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    height: 30px;
+    width: auto;
+    border-radius: 10%;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+#reset:hover{
+    background-color: royalblue;
+}
+
+#rainbow{
+    color: grey;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    height: 30px;
+    border-radius: 10%;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+#rainbow:hover{
+    animation-name: colorful;
+    animation-duration: 3s;
+}
+
+@keyframes colorful {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: seagreen;
+    }
+    100% {
+        background-color: royalblue;
+    }
+  }
+
+#black{
+    color: grey;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    height: 30px;
+    border-radius: 10%;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+#black:hover{
+    background-color: royalblue;
 }
 
 #container{
-    padding: 20px 20px;
+    display: flex;
+    padding: 40px 40px;
     margin: auto;
     display: grid;
     background-color: white;
-    box-shadow: brown;
-    height: 1000px;
-    width: 1000px;
+    border: royalblue;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    box-shadow: -20px 20px 0 grey;
 }
 
+
 .cell{
-    
-    text-align: center;
     background-color:white;
 }
 
