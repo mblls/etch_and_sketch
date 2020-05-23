@@ -6,6 +6,7 @@
 body{
     font-family: 'Josefin Slab', serif;
     font-weight: 900;
+    font-size: x-large;
     color: royalblue;
 }
 
@@ -41,46 +42,55 @@ h1{
 
 #change_size{
     color: grey;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 30px;
     border-radius: 10%;
     font-size: medium;
     margin-bottom: 10px;
+    border: none;
+    box-shadow: -10px 10px 0 grey;
 }
 
 #change_size:hover{
     background-color: royalblue;
+    box-shadow: -4px 4px 0 grey;
 }
 
 #reset{
     color: grey;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 30px;
     width: auto;
     border-radius: 10%;
     font-size: medium;
     margin-bottom: 10px;
+    border: none;
+    box-shadow: -10px 10px 0 grey;
 }
 
 #reset:hover{
     background-color: royalblue;
+    box-shadow: -4px 4px 0 grey;
 }
 
 #rainbow{
     color: grey;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 30px;
     border-radius: 10%;
     font-size: medium;
     margin-bottom: 10px;
+    border: none;
+    box-shadow: -10px 10px 0 grey;
 }
 
 #rainbow:hover{
     animation-name: colorful;
     animation-duration: 3s;
+    box-shadow: -4px 4px 0 grey;
 }
 
 @keyframes colorful {
@@ -97,16 +107,19 @@ h1{
 
 #black{
     color: grey;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 30px;
     border-radius: 10%;
     font-size: medium;
     margin-bottom: 10px;
+    border: none;
+    box-shadow: -10px 10px 0 grey;
 }
 
 #black:hover{
     background-color: royalblue;
+    box-shadow: -4px 4px 0 grey;
 }
 
 #container{
