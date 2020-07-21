@@ -1,2 +1,2 @@
 # etch_and_sketch
-Simple etch a sketch
+Etch a sketch showing off some more intricate HTML/CSS skills, getting the hang of JS.
